@@ -18,7 +18,6 @@ Aplicação de lista de tarefas desenvolvida como projeto de portfólio.
 ## Funcionalidades
 
 - Criar, listar e deletar tarefas
-- Salvar tarefas no localStorage
 - Integração com API REST
 
 ## Como rodar localmente
