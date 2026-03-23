@@ -11,6 +11,10 @@ app.get('/test', async (req, res) => {
   res.json(result.rows)
 })
 
+app.use('/auth', require('./routes/auth'))
+app.use('/tarefas', require('./routes/tarefas'))
+app.use('/listas', require('./routes/listas'))
+
 app.listen(3000, () => {
   console.log('Servidor rodando na porta 3000')
 })
